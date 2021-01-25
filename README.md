@@ -10,19 +10,25 @@ This simple Node.js program imports the backup file and create markdown files fr
 ## Prerequisites
 This program assumes that you have already download an unencrypted copy of your Standard Notes data.
 
-### Downloading Your Data (Desktop)
+### Downloading Your Data (Standard Notes Desktop)
 
-Click on the account button
+1. Click on the account button
 
-![alt text](/img/img-1.png)
+![account button](/img/img-1.png)
 
-Scroll down to data backups, select unencrypted, and click "Download Backup"
+2. Scroll down to data backups, select unencrypted, and click "Download Backup"
 
-Save to Desktop
+![backup data](/img/img-2.png)
 
-Extract zip to a folder
+3. Save to Desktop
 
-You should see a file named `Standard Notes Backup and Import File txt`
+![save](/img/img-3.png)
+
+4. Extract zip to a folder
+
+5. You should see a file named `Standard Notes Backup and Import File txt`
+
+![backup file](/img/img-4.png)
 
 ## Installation
 Clone repository
@@ -37,3 +43,5 @@ Run program
 `node index.js`
 
 View .md files in `./out`
+
+![md files](/img/img-5.png)
