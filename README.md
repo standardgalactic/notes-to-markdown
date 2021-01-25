@@ -1,7 +1,7 @@
 # standard-notes-to-markdown
 Converts a Standard Notes backup file to Markdown
 
-## Summary
+# Summary
 I wanted a way to convert my standard notes backup file to markdown to use in other file managers.
 This simple Node.js program imports the backup file and create markdown files from each note.
 
