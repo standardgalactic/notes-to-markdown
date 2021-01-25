@@ -7,10 +7,10 @@ This simple Node.js program imports the backup file and create markdown files fr
 
 **Please note that this script only processes the "title" and "text" (note content) properties.**
 
-## Prerequisites
+# Prerequisites
 This program assumes that you have already download an unencrypted copy of your Standard Notes data.
 
-### Downloading Your Data (Standard Notes Desktop)
+## Downloading Your Data (Standard Notes Desktop)
 
 1. Click on the account button
 
@@ -30,7 +30,7 @@ This program assumes that you have already download an unencrypted copy of your 
 
 ![backup file](/img/img-4.png)
 
-## Installation
+# Installation
 Clone repository
 `git clone https://github.com/trey-wallis/standard-notes-to-markdown.git`
 
