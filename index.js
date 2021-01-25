@@ -21,6 +21,9 @@ function main() {
 		const promises = [];
 
 		notes.items.forEach((note) => {
+			//We don't want to process any tags, extensions, etc
+		   	if (note.content_type !== "Note")
+				return;
 			//Return on empty content but not on empty title
 			if (note.content.text === undefined) return;
 
